@@ -1,0 +1,36 @@
+# Nextflow working files
+.nextflow*
+work/
+
+# Workflow outputs
+results/
+reports/
+
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+
+# Reference genome / annotations
+*.fa
+*.fasta
+*.fai
+*.gtf
+
+# R objects
+*.rds
+.Rhistory
+.RData
+
+# Logs
+*.log
+
+# OS/editor files
+.DS_Store
+.vscode/
